@@ -30,3 +30,5 @@ PRODUCT_PACKAGES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
     $(DEVICE_PATH)/overlay-lineage
+
+include hardware/amlogic/kernel-modules/dhd-driver/firmware/firmware.mk
