@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021-2022 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -23,6 +23,6 @@ PRODUCT_NAME := lineage_wade
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=wade \
-    PRIVATE_BUILD_DESC="asti6130d350-user 10 QT 20210326 release-keys"
+    PRIVATE_BUILD_DESC="asti6130d350-user 10 QT 20211207 release-keys"
 
-BUILD_FINGERPRINT := Dynalink/sti6130d350/sti6130d350:10/QT/20210326:user/release-keys
+BUILD_FINGERPRINT := Dynalink/sti6130d350/sti6130d350:10/QT/20211207:user/release-keys
