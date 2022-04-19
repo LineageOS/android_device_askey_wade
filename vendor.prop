@@ -11,3 +11,6 @@ vendor.media.support.dolbyvision=false
 ## NRDP
 ro.vendor.nrdp.modelgroup=STI6130D350
 ro.vendor.nrdp.oemmodel="Dynalink_Dynalink TV Box"
+
+## SOC
+ro.soc.model=AMLS905X2
