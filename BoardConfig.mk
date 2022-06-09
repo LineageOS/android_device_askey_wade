@@ -6,8 +6,6 @@
 
 include vendor/askey/wade/BoardConfigVendor.mk
 
-include device/amlogic/g12-common/BoardConfigCommon.mk
-
 DEVICE_PATH := device/askey/wade
 
 ## Bluetooth
@@ -35,3 +33,6 @@ WIFI_DRIVER_FW_PATH_AP := "/vendor/etc/wifi/buildin/fw_fw_bcm4356a2_ag_apsta.bin
 WIFI_DRIVER_FW_PATH_STA := "/vendor/etc/wifi/buildin/fw_bcm4356a2_ag.bin"
 WIFI_DRIVER_FW_PATH_PARAM := "/sys/module/dhd/parameters/firmware_path"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
+
+## Common Tree
+include device/amlogic/g12-common/BoardConfigCommon.mk
