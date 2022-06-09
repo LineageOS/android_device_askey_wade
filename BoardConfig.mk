@@ -4,8 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-include vendor/askey/wade/BoardConfigVendor.mk
-
 DEVICE_PATH := device/askey/wade
 
 ## Bluetooth
@@ -36,3 +34,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 ## Include the common tree BoardConfig makefile
 include device/amlogic/g12-common/BoardConfigCommon.mk
+
+## Include the proprietary BoardConfig makefile
+include vendor/askey/wade/BoardConfigVendor.mk
