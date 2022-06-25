@@ -23,6 +23,6 @@ PRODUCT_NAME := lineage_wade
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=wade \
-    PRIVATE_BUILD_DESC="asti6130d350-user 10 QT 20220222 release-keys"
+    PRIVATE_BUILD_DESC="sti6130d350-user 10 QT 20220517 release-keys"
 
-BUILD_FINGERPRINT := Dynalink/sti6130d350/sti6130d350:10/QT/20220222:user/release-keys
+BUILD_FINGERPRINT := Dynalink/sti6130d350/sti6130d350:10/QT/20220517:user/release-keys
