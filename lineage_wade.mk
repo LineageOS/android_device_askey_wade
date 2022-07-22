@@ -17,7 +17,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := Askey
 PRODUCT_DEVICE := wade
 PRODUCT_GMS_CLIENTID_BASE := android-askey-tv
-PRODUCT_MANUFACTURER := Askey
+PRODUCT_MANUFACTURER := askey
 PRODUCT_MODEL := Dynalink TV Box
 PRODUCT_NAME := lineage_wade
 
