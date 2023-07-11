@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021-2022 The LineageOS Project
+# Copyright (C) 2021-2023 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -18,6 +18,10 @@ TARGET_BOOTLOADER_BOARD_NAME := wade
 ## DTB
 TARGET_DTB_NAME := g12a_s905x2_u212_sti6130d3x0
 TARGET_DTBO_NAME := sti6140d350_overlay
+
+## Partitions
+BOARD_AMLOGIC_DYNAMIC_PARTITIONS_SIZE := 16735272964 # (BOARD_SUPER_PARTITION_SIZE - "Reasonable Overhead of 4 MiB" 4194304)
+BOARD_SUPER_PARTITION_SIZE := 1677721600
 
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
