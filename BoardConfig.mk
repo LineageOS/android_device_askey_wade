@@ -19,6 +19,10 @@ TARGET_BOOTLOADER_BOARD_NAME := wade
 TARGET_DTB_NAME := g12a_s905x2_u212_sti6130d3x0
 TARGET_DTBO_NAME := sti6140d350_overlay
 
+## Kernel modules
+TARGET_KERNEL_EXT_MODULES := \
+    dhd-driver/bcmdhd.101.10.361.x
+
 ## Partitions
 BOARD_SUPER_PARTITION_SIZE := 1677721600
 
