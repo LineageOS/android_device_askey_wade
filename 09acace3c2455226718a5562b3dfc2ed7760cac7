@@ -16,6 +16,24 @@
       "message": "Need to confirm whether wade really uses this firmware. On radxa0 it was found that it was a different one.",
       "revId": "09acace3c2455226718a5562b3dfc2ed7760cac7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "23490dac_707da8a7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-02-23T11:53:27Z",
+      "side": 1,
+      "message": "It\u0027s the same chip as deadpool - AP6356. The firmware is correct.",
+      "parentUuid": "b0cb270f_9a59c4a8",
+      "revId": "09acace3c2455226718a5562b3dfc2ed7760cac7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
