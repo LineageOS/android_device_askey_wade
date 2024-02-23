@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b0cb270f_9a59c4a8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-02-23T11:41:02Z",
+      "side": 1,
+      "message": "Need to confirm whether wade really uses this firmware. On radxa0 it was found that it was a different one.",
+      "revId": "09acace3c2455226718a5562b3dfc2ed7760cac7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
