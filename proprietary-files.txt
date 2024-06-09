@@ -30,6 +30,11 @@ vendor/lib/libsubtitlebinder.so
 vendor/lib/libsubtitlemanager_jni.so
 vendor/lib/vendor.amlogic.hardware.subtitleserver@1.0.so
 
+## IR
+vendor/etc/init/init.hbg.remote.rc|c03db2bffcec0495cd952498cc71128811195246
+vendor/etc/remote.txt|9ad9e7e511b8bfa59af837c90aebb02a880096b2
+vendor/lib/hw/consumerir.amlogic.so|e0b675d2ca48fedf452fd028d92bd98972eba738
+
 ## NRDP
 vendor/etc/nrdp_audio_platform_capabilities.json
 vendor/etc/nrdp_audio_platform_capabilities_ms12.json
