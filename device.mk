@@ -18,6 +18,14 @@ endif
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc
 
+## IR
+PRODUCT_PACKAGES += \
+    android.hardware.ir@1.0-service \
+    android.hardware.ir@1.0-impl
+
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml
+
 ## Kernel Modules
 PRODUCT_PACKAGES += \
     dhd
