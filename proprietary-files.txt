@@ -1,5 +1,5 @@
 ## All blobs from this list, unless pinned and noted as otherwise,
-## are from sti6130d350-user 12 SC 20221221 release-keys.
+## are from sti6130d350-user 12 SC 20240419 release-keys.
 
 ## Dolby
 vendor/etc/audio_policy_configuration_dolby_ms12.xml
