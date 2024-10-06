@@ -19,7 +19,8 @@ endif
 
 ## Init-Files
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc
+    $(LOCAL_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc \
+    $(LOCAL_PATH)/init-files/init.wade.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.wade.rc
 
 ## IR
 PRODUCT_PACKAGES += \
