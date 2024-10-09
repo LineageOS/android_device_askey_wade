@@ -35,6 +35,14 @@ vendor/etc/init/init.hbg.remote.rc|c03db2bffcec0495cd952498cc71128811195246
 vendor/etc/remote.txt|9ad9e7e511b8bfa59af837c90aebb02a880096b2
 vendor/lib/hw/consumerir.amlogic.so|e0b675d2ca48fedf452fd028d92bd98972eba738
 
+## Netflix
+system/system/etc/sysconfig/netflix.xml
+vendor/bin/hw/android.hardware.drm@1.4-service.netflix
+vendor/etc/init/android.hardware.drm@1.4-service.netflix.rc
+vendor/etc/permissions/droidlogic.software.netflix.xml
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.netflix.xml
+vendor/lib/libnetflixplugin.so
+
 ## NRDP
 vendor/etc/nrdp_audio_platform_capabilities.json
 vendor/etc/nrdp_audio_platform_capabilities_ms12.json
