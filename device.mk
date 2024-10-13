@@ -37,7 +37,7 @@ PRODUCT_COPY_FILES += \
 ## Netflix
 PRODUCT_PACKAGES += \
     NetflixConfig \
-    NetflixConfigOverlay
+    WadeNetflixConfigOverlay
 
 ## Wi-Fi firmware
 include kernel/amlogic/kernel-modules/dhd-driver/firmware/wifi/wifi.mk
