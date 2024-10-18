@@ -24,13 +24,10 @@ PRODUCT_MANUFACTURER := askey
 PRODUCT_MODEL := Dynalink TV Box
 PRODUCT_NAME := lineage_wade
 
-PRODUCT_SYSTEM_NAME := sti6130d350
-PRODUCT_SYSTEM_DEVICE := sti6130d350
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=wade \
-    PRIVATE_BUILD_DESC="sti6130d350-user 12 SC 20240723 release-keys" \
-    TARGET_DEVICE=$(PRODUCT_DEVICE) \
-    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
-
-BUILD_FINGERPRINT := Dynalink/sti6130d350/sti6130d350:12/SC/20240723:user/release-keys
+    BuildDesc="sti6130d350-user 12 SC 20240723 release-keys" \
+    BuildFingerprint=Dynalink/sti6130d350/sti6130d350:12/SC/20240723:user/release-keys \
+    DeviceName=wade \
+    DeviceProduct=wade \
+    SystemDevice=sti6130d350 \
+    SystemName=sti6130d350
