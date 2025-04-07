@@ -34,7 +34,9 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 ## SELinux
 SELINUX_IGNORE_NEVERALLOWS := true
-BOARD_VENDOR_SEPOLICY_DIRS += device/askey/dopinder/sepolicy/vendor
+BOARD_VENDOR_SEPOLICY_DIRS += \
+    device/askey/dopinder/sepolicy/vendor
+    device/askey/wade/sepolicy/vendor
 
 ## Wi-Fi
 BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_bcmdhd
