@@ -39,6 +39,11 @@ PRODUCT_PACKAGES += \
     NetflixConfig \
     WadeNetflixConfigOverlay
 
+## Soong Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH) \
+    hardware/broadcom/libbt
+
 ## Wi-Fi firmware
 include kernel/amlogic/kernel-modules/dhd-driver/firmware/wifi/wifi.mk
 
