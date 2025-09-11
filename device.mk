@@ -9,6 +9,9 @@ PRODUCT_PACKAGES += \
     WadeBluetoothOverlay \
     libbt-vendor
 
+$(call soong_config_set,brcm_libbt,bdroid_buildcfg_include_dir,$(LOCAL_PATH)/bluetooth/include)
+$(call soong_config_set,brcm_libbt,custom_bt_config,//device/askey/wade:vnd_wade.txt)
+
 ## Bluetooth firmware
 include kernel/amlogic/kernel-modules/dhd-driver/firmware/bluetooth/bluetooth.mk
 
@@ -38,6 +41,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     NetflixConfig \
     WadeNetflixConfigOverlay
+
+## Soong Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH) \
+    hardware/broadcom/libbt
 
 ## Wi-Fi firmware
 include kernel/amlogic/kernel-modules/dhd-driver/firmware/wifi/wifi.mk
