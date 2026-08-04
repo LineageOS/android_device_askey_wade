@@ -3,7 +3,9 @@
      SPDX-FileCopyrightText: The LineageOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <bool name="enable_phone_policy">false</bool>
+<resources>
     <bool name="pbap_include_photos_in_vcard">false</bool>
+
+    <!-- Enabling the phone policy -->
+    <bool name="enable_phone_policy">false</bool>
 </resources>
