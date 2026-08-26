@@ -5,6 +5,9 @@
 vendor/etc/audio_policy_configuration_dolby_ms12.xml
 vendor/etc/framerate.cfg
 
+## Bluetooth Firmware
+vendor/etc/bluetooth/bcm43569a2.hcd
+
 ## DRM
 vendor/lib/liboemcrypto.so
 vendor/lib/libsecmem.so
@@ -99,3 +102,9 @@ vendor/bin/tee_hdcp
 vendor/bin/tee_key_inject
 vendor/etc/init/tee_hdcp.rc
 vendor/etc/init/tee_key_inject.rc
+
+## Wi-Fi Firmware
+vendor/etc/wifi/4356/config_bcm4356a2_ag.txt:vendor/firmware/wifi/config_bcm4356a2_ag.txt
+vendor/etc/wifi/4356/fw_bcm4356a2_ag.bin:vendor/firmware/wifi/fw_bcm4356a2_ag.bin
+vendor/etc/wifi/4356/fw_bcm4356a2_ag_apsta.bin:vendor/firmware/wifi/fw_bcm4356a2_ag_apsta.bin
+vendor/etc/wifi/4356/fw_bcm4356a2_ag_p2p.bin:vendor/firmware/wifi/fw_bcm4356a2_ag_p2p.bin
