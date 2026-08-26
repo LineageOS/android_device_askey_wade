@@ -5,6 +5,25 @@
 vendor/etc/audio_policy_configuration_dolby_ms12.xml
 vendor/etc/framerate.cfg
 
+## Bluetooth Firmware
+vendor/etc/bluetooth/4343.hcd
+vendor/etc/bluetooth/BCM20702.hcd
+vendor/etc/bluetooth/BCM20703A2.hcd
+vendor/etc/bluetooth/BCM2076.hcd
+vendor/etc/bluetooth/BCM4330.hcd
+vendor/etc/bluetooth/BCM4345C0.hcd
+vendor/etc/bluetooth/BCM4345C5.hcd
+vendor/etc/bluetooth/BCM4350.hcd
+vendor/etc/bluetooth/BCM4354A2.hcd
+vendor/etc/bluetooth/BCM4359C0.hcd
+vendor/etc/bluetooth/BCM4362A1.hcd
+vendor/etc/bluetooth/BCM4362A2.hcd
+vendor/etc/bluetooth/BCM4375B1.hcd
+vendor/etc/bluetooth/bcm43241b4.hcd
+vendor/etc/bluetooth/bcm43341b0.hcd
+vendor/etc/bluetooth/bcm4335c0.hcd
+vendor/etc/bluetooth/bcm43569a2.hcd
+
 ## DRM
 vendor/lib/liboemcrypto.so
 vendor/lib/libsecmem.so
@@ -99,3 +118,10 @@ vendor/bin/tee_hdcp
 vendor/bin/tee_key_inject
 vendor/etc/init/tee_hdcp.rc
 vendor/etc/init/tee_key_inject.rc
+
+## Wi-Fi Firmware
+vendor/etc/wifi/4356/config.txt:vendor/firmware/wifi/config_bcm4356a2_ag.txt
+vendor/etc/wifi/4356/fw_bcm4356a2_ag.bin:vendor/firmware/wifi/fw_bcm4356a2_ag.bin
+vendor/etc/wifi/4356/fw_bcm4356a2_ag_apsta.bin:vendor/firmware/wifi/fw_bcm4356a2_ag_apsta.bin
+vendor/etc/wifi/4356/fw_bcm4356a2_ag_p2p.bin:vendor/firmware/wifi/fw_bcm4356a2_ag_p2p.bin
+vendor/etc/wifi/4356/nvram_ap6356_NCC.txt:vendor/firmware/wifi/nvram_ap6356.txt
