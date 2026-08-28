@@ -16,4 +16,4 @@ ro.vendor.nrdp.oemmodel="Dynalink_Dynalink TV Box"
 ro.soc.model=AMLS905X2
 
 ## Wi-Fi
-vendor.bcm_wifi=bcm
+vendor.wifi_name=bcm
