@@ -40,7 +40,6 @@ vendor/lib/egl/libGLES_mali.so;SYMLINK=vendor/lib/hw/vulkan.amlogic.so|d1a1f44a8
 ## IR
 vendor/etc/init/init.hbg.remote.rc
 vendor/etc/remote.txt
-vendor/lib/hw/consumerir.amlogic.so
 
 ## Netflix
 system/etc/sysconfig/netflix.xml
