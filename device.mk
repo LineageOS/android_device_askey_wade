@@ -16,6 +16,10 @@ ifeq ($(WITH_GMS),true)
 GMS_MAKEFILE=gms_minimal.mk
 endif
 
+## Init
+PRODUCT_PACKAGES += \
+    init.amlogic.target.rc
+
 ## Keylayout (IR)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/Vendor_0001_Product_0001.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0001_Product_0001.kl
