@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "60a07d5e_79653059",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2026-11-22T13:04:58Z",
+      "side": 1,
+      "message": "build now succeeds and boots. atc full mtg loading possible.",
+      "revId": "b4c01e66699a3f42d4f584fdd9a0c9d2d06c0ac6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
