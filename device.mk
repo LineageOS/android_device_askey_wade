@@ -3,6 +3,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+## Audio
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/audio/aml_audio_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/aml_audio_config.json
+
 ## Bluetooth
 PRODUCT_PACKAGES += \
     BluetoothOverlayTarget \
