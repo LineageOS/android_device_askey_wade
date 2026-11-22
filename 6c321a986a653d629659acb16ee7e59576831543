@@ -16,6 +16,24 @@
       "message": "Can this be commonized in g12 tree, considering BOARD_SUPER_PARTITION_SIZE no is set and the rest can be calculated?",
       "revId": "6c321a986a653d629659acb16ee7e59576831543",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b214e9f8_996529ab",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-11-22T13:43:46Z",
+      "side": 1,
+      "message": "Actually, nevermind. It seems that only wade has this smaller super size.",
+      "parentUuid": "6c660384_4365fa4b",
+      "revId": "6c321a986a653d629659acb16ee7e59576831543",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
