@@ -16,6 +16,23 @@
       "message": "Retain change-id from nicepool.",
       "revId": "be907516b2bf477691483ff1a6ae018245a10dc2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a561d37_fe723f37",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-11-24T22:16:21Z",
+      "side": 1,
+      "message": "Or change nicepool\u0027s change-id to match this one.",
+      "revId": "be907516b2bf477691483ff1a6ae018245a10dc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
