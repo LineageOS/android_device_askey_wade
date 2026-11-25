@@ -24,8 +24,8 @@ PRODUCT_MODEL := Dynalink TV Box
 PRODUCT_NAME := lineage_wade
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="sti6130d350-user 12 SC 20240723 release-keys" \
-    BuildFingerprint=Dynalink/sti6130d350/sti6130d350:12/SC/20240723:user/release-keys \
+    BuildDesc="sti6130d350-user 14 UKG3.240613.001 20250327 release-keys" \
+    BuildFingerprint=Dynalink/sti6130d350/sti6130d350:14/UKG3.240613.001/20250327:user/release-keys \
     DeviceName=wade \
     DeviceProduct=sti6130d350 \
     SystemDevice=sti6130d350 \
