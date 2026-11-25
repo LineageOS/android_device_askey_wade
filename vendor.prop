@@ -1,3 +1,6 @@
+## Attestation
+ro.product.device_for_attestation=sti6130d350
+
 ## Bluetooth
 bluetooth.device.default_name=Dynalink TV Box
 bluetooth.profile.hfp.ag.enabled=false
